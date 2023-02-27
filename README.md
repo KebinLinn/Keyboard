@@ -27,7 +27,7 @@
                     <tbody>
                         <tr>
                             <td>Keycaps</td>
-                            <td><a href="#">+ Choose keycaps</a></td>
+                            <td><a href="#" class="choose-link">+ Choose keycaps</a></td>
                             <td></td>
                             <td></td>
                             <td></td>
@@ -37,7 +37,7 @@
                         </tr>
                         <tr>
                             <td>Switches</td>
-                            <td><a href="#">+ Choose switches</a></td>
+                            <td><a href="#" class="choose-link">+ Choose switches</a></td>
                             <td></td>
                             <td></td>
                             <td></td>
@@ -47,7 +47,7 @@
                         </tr>
                         <tr>
                             <td>Case</td>
-                            <td><a href="#">+ Choose a case</a></td>
+                            <td><a href="#" class="choose-link">+ Choose a case</a></td>
                             <td></td>
                             <td></td>
                             <td></td>
@@ -57,7 +57,7 @@
                         </tr>
                         <tr>
                             <td>Plate</td>
-                            <td><a href="#">+ Choose a plate</a></td>
+                            <td><a href="#" class="choose-link">+ Choose a plate</a></td>
                             <td></td>
                             <td></td>
                             <td></td>
@@ -67,7 +67,7 @@
                         </tr>
                         <tr>
                             <td>Printed Circuit Board (PCB)</td>
-                            <td><a href="#">+ Choose a circuit board</a></td>
+                            <td><a href="#" class="choose-link">+ Choose a circuit board</a></td>
                             <td></td>
                             <td></td>
                             <td></td>
@@ -77,14 +77,7 @@
                         </tr>
                         <tr>
                             <td>Stabilizers</td>
-                            <td><a href="#">+ Choose stabilizers</a></td>{
-				  border: 1px solid blue;
-  				  display: inline-block;
-  				  padding: 5px;
-				  margin: 5px 0;
-				  color: blue;
-				  text-decoration: none;
-}
+                            <td><a href="#" class="choose-link">+ Choose stabilizers</a></td>
                             <td></td>
                             <td></td>
                             <td></td>
@@ -94,7 +87,7 @@
                         </tr>
                         <tr>
                             <td>Power Cable</td>
-                            <td><a href="#">+ Choose a power cable</a></td>
+                            <td><a href="#" class="choose-link">+ Choose a power cable</a></td>
                             <td></td>
                             <td></td>
                             <td></td>
@@ -105,4 +98,8 @@
                     </tbody>
                 </table>
             </section>
-            <section id="part-details
+            <section id="part-details"></section>
+        </section>
+    </main>
+</body>
+</html>
