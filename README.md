@@ -37,6 +37,9 @@
 				<li><a href="#">Case</a></li>
 			</ul>
 		</section>
+		<section id="button-section">
+			<button>Click Me</button>
+		</section>
 	</main>
 	<footer>
 		<p>PC Part Picker &copy; 2023</p>
