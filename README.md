@@ -1,6 +1,26 @@
-<!DOCTYPE html>
-<html>
-<head>
+<div class="wrapper wrapper__pageContent">
+<section class="actionBox__wrapper">
+<div class="xs-col-11 lg-col-9 xl-col-8 xs-mx-auto">
+<div class="actionBoxGroup actionBoxGroup--partlist">
+<div class="actionBox actionBox__permalink">
+<svg class="icon shape-link"><use xlink:href="#shape-link"></use></svg><input type="text" class="text-input" value="https://pcpartpicker.com/list/sF8TwP" onclick="this.select()">
+</div>
+<ul class="actionBox actionBox__markup">
+<li><p>Markup:</p></li>
+<li><a href="#" class="actionBox__markupLink actionBox__markup--site" data-markup-mode="markdown" data-markup-destination="local"><svg class="icon shape-markup-pcpp"><use xlink:href="#shape-markup-pcpp"></use></svg></a></li>
+<li><a href="#" class="actionBox__markupLink actionBox__markup--reddit" data-markup-mode="markdown" data-markup-destination="reddit"><svg class="icon shape-markup-reddit"><use xlink:href="#shape-markup-reddit"></use></svg></a></li>
+<li><a href="#" class="actionBox__markupLink actionBox__markup--html" data-markup-mode="html" data-markup-destination="html"><svg class="icon shape-markup-html"><use xlink:href="#shape-markup-html"></use></svg></a></li>
+<li><a href="#" class="actionBox__markupLink actionBox__markup--text" data-markup-mode="plaintext" data-markup-destination="plaintext"><svg class="icon shape-markup-plain-text"><use xlink:href="#shape-markup-plain-text"></use></svg></a></li>
+<li><a href="#" class="actionBox__markupLink actionBox__markup--bbcode" data-markup-mode="bbcode" data-markup-destination="bbcode"><svg class="icon shape-markup-bbcode"><use xlink:href="#shape-markup-bbcode"></use></svg></a></li>
+</ul>
+<ul class="actionBox actionBox__options">
+<li><a href="#" class="actionBox__options--history"><svg class="icon shape-history"><use xlink:href="#shape-history"></use></svg>History</a></li>
+</ul>
+</div>
+</div>
+</section>
+<section class="main-content xs-col-11 lg-col-9 xl-col-8 xs-mx-auto">
+<div class="partlist__wrapper">
 <div class="partlist__metrics">
 <div class="partlist__compatibility partlist__compatibility--noIssues">
 <p class="partlist__compatibility--noIssues">
@@ -221,5 +241,6 @@ Choose A Monitor
 <div class="block" id="disclosure">
 <p>* PCPartPicker may receive compensation for purchases made at participating retailers linked on this site. This compensation does not affect what products or prices are displayed, or the order of prices listed. Learn more <a href="/disclosure/">here</a>.</p>
 </div>
-</body>
-</html>
+</div>
+</section>
+</div>
