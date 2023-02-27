@@ -28,13 +28,13 @@
 					<thead>
 						<tr>
 							<th>Component</th>
-							<th>Selection</th>
-							<th>Base</th>
-							<th>Promo</th>
-							<th>Shipping</th>
-							<th>Tax</th>
-							<th>Price</th>
-							<th>Where</th>
+							<th>Keycaps</th>
+							<th>Switches</th>
+							<th>Case</th>
+							<th>Plate</th>
+							<th>Printed Circuit Board (PCB)</th>
+							<th>Stabilizers</th>
+							<th>Power Cable</th>
 						</tr>
 					</thead>
 					<tbody>
