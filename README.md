@@ -1,3 +1,6 @@
+<!DOCTYPE html>
+<html>
+<body>
 <div class="wrapper wrapper__pageContent">
 <section class="actionBox__wrapper">
 <div class="xs-col-11 lg-col-9 xl-col-8 xs-mx-auto">
@@ -244,3 +247,5 @@ Choose A Monitor
 </div>
 </section>
 </div>
+</body>
+</html>
