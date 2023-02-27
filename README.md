@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>PC Part Picker</title>
+	<title>Keyboard Parts Picker</title>
 	<style>
 		body {
 			background-color: #333;
@@ -25,40 +25,60 @@
             justify-content: space-between;
             align-items: center;
         }
-        #component-selection-header span {
+        #component-header {
+            display: flex;
+            align-items: center;
+        }
+        #component-header span {
             font-size: 16px;
             font-weight: bold;
             text-transform: uppercase;
             margin: 0 10px;
             cursor: pointer;
         }
-        #component-selection-header span:hover {
+        #component-header span:hover {
             color: #ccc;
+        }
+        #selection-header {
+            display: flex;
+            align-items: center;
+        }
+        #selection-header span {
+            font-size: 14px;
+            margin: 0 10px;
+            cursor: pointer;
+        }
+        #selection-header span:hover {
+            text-decoration: underline;
         }
 	</style>
 </head>
 <body>
     <header id="component-selection-header">
-        <span>Component Selection</span>
-        <span>Base</span>
-        <span>Promo</span>
-        <span>Shipping</span>
-        <span>Tax</span>
-        <span>Price</span>
-        <span>Where</span>
+        <div id="component-header">
+            <span>Keyboard Parts</span>
+            <span>Selection</span>
+        </div>
+        <div id="selection-header">
+            <span>Base</span>
+            <span>Promo</span>
+            <span>Shipping</span>
+            <span>Tax</span>
+            <span>Price</span>
+            <span>Where</span>
+        </div>
     </header>
 	<header>
-		<h1>PC Part Picker</h1>
+		<h1>Keyboard Parts Picker</h1>
 		<nav>
 			<ul>
-				<li><a href="#">Home</a></li>
-				<li><a href="#">Builds</a></li>
-				<li><a href="#cpu">CPU</a></li>
-				<li><a href="#">GPU</a></li>
-				<li><a href="#">RAM</a></li>
-				<li><a href="#">Storage</a></li>
-				<li><a href="#">Power Supply</a></li>
+				<li><a href="#">Keycaps</a></li>
+				<li><a href="#">Switches</a></li>
 				<li><a href="#">Case</a></li>
+				<li><a href="#">Plate</a></li>
+				<li><a href="#">Printed Circuit Board (PCB)</a></li>
+				<li><a href="#">Stabilizers</a></li>
+				<li><a href="#">Power Cable</a></li>
 			</ul>
 		</nav>
 	</header>
@@ -74,23 +94,30 @@
 		<section id="part-list">
 			<h2>Part List</h2>
 			<ul>
-				<li><a href="#cpu">CPU</a></li>
-				<li><a href="#">Motherboard</a></li>
-				<li><a href="#">GPU</a></li>
-				<li><a href="#">RAM</a></li>
-				<li><a href="#">Storage</a></li>
-				<li><a href="#">Power Supply</a></li>
+				<li><a href="#">Keycaps</a></li>
+				<li><a href="#">Switches</a></li>
 				<li><a href="#">Case</a></li>
+				<li><a href="#">Plate</a></li>
+				<li><a href="#">Printed Circuit Board (PCB)</a></li>
+				<li><a href="#">Stabilizers</a></li>
+				<li><a href="#">Power Cable</a></li>
 			</ul>
-		</section>
-		<section id="cpu">
-			<h2>CPU</h2>
-			<p>Here is some information about CPUs.</p>
-			<p><a href="https://pcpartpicker.com/product/g94BD3/amd-ryzen-5-5600x-37-ghz-6-core-processor-100-100000065box">Click here to view the AMD Ryzen 5 5600X on PC Part Picker.</a></p>
-		</section>
-	</main>
-	<footer>
-		<p>PC Part Picker &copy; 2023</p>
-	</footer>
-</body>
-</html>
+</section>
+	<section id="part-details">
+		<h2>Part Details</h2>
+		<form>
+			<label for="part-name">Name:</label>
+			<input type="text" id="part-name" name="part-name" required>
+			<label for="part-price">Price:</label>
+			<input type="number" id="part-price" name="part-price" required>
+			<label for="part-manufacturer">Manufacturer:</label>
+			<input type="text" id="part-manufacturer" name="part-manufacturer">
+			<label for="part-description">Description:</label>
+			<textarea id="part-description" name="part-description"></textarea>
+			<button type="submit">Add Part</button>
+		</form>
+	</section>
+</main>
+<footer>
+	<p>&copy; 2023 Keyboard Parts Picker</p>
+</footer>
