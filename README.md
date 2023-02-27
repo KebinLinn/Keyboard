@@ -1,4 +1,6 @@
-
+<!DOCTYPE html>
+<html>
+<head>
 <div class="partlist__metrics">
 <div class="partlist__compatibility partlist__compatibility--noIssues">
 <p class="partlist__compatibility--noIssues">
@@ -219,3 +221,5 @@ Choose A Monitor
 <div class="block" id="disclosure">
 <p>* PCPartPicker may receive compensation for purchases made at participating retailers linked on this site. This compensation does not affect what products or prices are displayed, or the order of prices listed. Learn more <a href="/disclosure/">here</a>.</p>
 </div>
+</body>
+</html>
