@@ -4,13 +4,19 @@
 	<title>PC Part Picker</title>
 	<style>
 		body {
-			background-color: #fff; /* set default background color */
-			color: #333; /* set default text color */
-			transition: background-color 0.5s ease; /* add a smooth transition */
+			background-color: #333;
+			color: #fff;
+			transition: background-color 0.5s ease;
 		}
-		body.dark-mode {
-			background-color: #333; /* set dark mode background color */
-			color: #fff; /* set dark mode text color */
+		header, main, footer {
+			background-color: #111;
+			color: #fff;
+		}
+		header a, header button {
+			color: #fff;
+		}
+		header a:hover, header button:hover {
+			color: #ccc;
 		}
 	</style>
 </head>
@@ -27,7 +33,6 @@
 				<li><a href="#">Storage</a></li>
 				<li><a href="#">Power Supply</a></li>
 				<li><a href="#">Case</a></li>
-				<li><button onclick="toggleDarkMode()">Toggle Dark Mode</button></li> <!-- add a button to toggle dark mode -->
 			</ul>
 		</nav>
 	</header>
@@ -61,10 +66,5 @@
 	<footer>
 		<p>PC Part Picker &copy; 2023</p>
 	</footer>
-	<script>
-		function toggleDarkMode() {
-			document.body.classList.toggle("dark-mode"); // toggle the "dark-mode" class on the body element
-		}
-	</script>
 </body>
 </html>
