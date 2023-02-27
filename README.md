@@ -18,9 +18,35 @@
 		header a:hover, header button:hover {
 			color: #ccc;
 		}
+        #component-selection-header {
+            background-color: #222;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        #component-selection-header span {
+            font-size: 16px;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin: 0 10px;
+            cursor: pointer;
+        }
+        #component-selection-header span:hover {
+            color: #ccc;
+        }
 	</style>
 </head>
 <body>
+    <header id="component-selection-header">
+        <span>Component Selection</span>
+        <span>Base</span>
+        <span>Promo</span>
+        <span>Shipping</span>
+        <span>Tax</span>
+        <span>Price</span>
+        <span>Where</span>
+    </header>
 	<header>
 		<h1>PC Part Picker</h1>
 		<nav>
