@@ -10,9 +10,12 @@
 			<ul>
 				<li><a href="#">Home</a></li>
 				<li><a href="#">Builds</a></li>
-				<li><a href="#">Parts</a></li>
-				<li><a href="#">Guides</a></li>
-				<li><a href="#">Forum</a></li>
+				<li><a href="#cpu">CPU</a></li>
+				<li><a href="#">GPU</a></li>
+				<li><a href="#">RAM</a></li>
+				<li><a href="#">Storage</a></li>
+				<li><a href="#">Power Supply</a></li>
+				<li><a href="#">Case</a></li>
 			</ul>
 		</nav>
 	</header>
@@ -28,7 +31,7 @@
 		<section id="part-list">
 			<h2>Part List</h2>
 			<ul>
-				<li><a href="#">CPU</a></li>
+				<li><a href="#cpu">CPU</a></li>
 				<li><a href="#">Motherboard</a></li>
 				<li><a href="#">GPU</a></li>
 				<li><a href="#">RAM</a></li>
@@ -37,8 +40,10 @@
 				<li><a href="#">Case</a></li>
 			</ul>
 		</section>
-		<section id="button-section">
-			<button>Click Me</button>
+		<section id="cpu">
+			<h2>CPU</h2>
+			<p>Here is some information about CPUs.</p>
+			<p><a href="https://pcpartpicker.com/product/g94BD3/amd-ryzen-5-5600x-37-ghz-6-core-processor-100-100000065box">Click here to view the AMD Ryzen 5 5600X on PC Part Picker.</a></p>
 		</section>
 	</main>
 	<footer>
